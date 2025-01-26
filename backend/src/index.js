@@ -38,12 +38,6 @@ app.use(fileUpload({
 app.use('/api/auth', authRoutes);
 app.use('/api/messages', messageRoutes);
 
-
-//Root Route
-app.get('/', (req, res) => {
-    res.send('Hello World');
-});
-
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.join(__dirname, '../baat-cheet/dist')));
     app.get('*', (req, res) => {
