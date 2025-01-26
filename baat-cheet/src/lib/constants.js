@@ -1,3 +1,3 @@
-export const BACKEND_URL = import.meta.MODE === "development" ? 'http://localhost:3000/api' : "";
+export const BACKEND_URL = import.meta.MODE === "development" ? 'http://localhost:3000/api' : "https://baat-cheet-w19c.onrender.com/api";
 
-export const BACKEND_BASE_URL = import.meta.MODE === "development" ? 'http://localhost:3000' : "";
+export const BACKEND_BASE_URL = import.meta.MODE === "development" ? 'http://localhost:3000' : "https://baat-cheet-w19c.onrender.com";
